@@ -1,0 +1,10 @@
+#Um turista deseja comprar dólares em uma casa de câmbio. 
+# Escreva um programa que leia a cotação do dólar para real, a quantidade de dólares que o turista deseja comprar,
+# e calcule o valor total em reais que ele precisará pagar.
+
+cotação_do_dolar = float(input('Digite a cotação do dolar para real:'))
+quantidade_de_dolares = float(input('Digite a quantidade de dolares que deseja comprar:'))
+
+total_em_reais = cotação_do_dolar*quantidade_de_dolares
+
+print('Para compra {}$, voce precisará pagar {}R$'.format(quantidade_de_dolares, total_em_reais))
