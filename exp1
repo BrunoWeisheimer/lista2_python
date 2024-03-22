@@ -1,0 +1,7 @@
+#. Faça um algoritmo que leia uma quantidade de tempo em minutos e escreva o tempo equivalente em segundos na tela.
+
+m = int(input('Informe a quantidade de tempo em minutos:'))
+    
+segundos = m*60
+
+print('O tempo equivalente em segundos é:', m*60)
