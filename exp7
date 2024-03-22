@@ -1,0 +1,11 @@
+# Um criador de pássaros deseja saber a quantidade de ração diária necessária para alimentar seus pássaros. 
+# Cada pássaro consome 30 gramas de ração por dia.
+# Escreva um programa que leia o número de pássaros que o criador possui e calcule a quantidade total de ração necessária por dia.
+
+quantidade_de_passaros = int(input('Quantidade de passaros:'))
+
+passaro_come = 30
+
+ração = quantidade_de_passaros*passaro_come
+
+print('A quantidade total de ração necessaria por dia é: {} gramas'.format(ração))
