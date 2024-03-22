@@ -1,0 +1,10 @@
+#Um motorista deseja encher o tanque do seu carro com gasolina.
+# Escreva um algoritmo para ler o preço do litro da gasolina e o valor que o motorista tem disponível para abastecer
+#Calcule quantos litros ele conseguiu colocar no tanque e exiba na tela.
+
+preço_do_litro_da_gasolina = float(input('Digite o preço do litro da gasolina:'))
+valor_disponivel_para_pagar = float(input('Digite o valor disponivvel para abastecer:'))
+
+litros = valor_disponivel_para_pagar/preço_do_litro_da_gasolina
+
+print('Você consegue abastecer {:.2f} litros de gasolina no seu tanque!'.format(litros))
