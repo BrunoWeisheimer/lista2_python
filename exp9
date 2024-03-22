@@ -1,0 +1,11 @@
+# Durante uma liquidação uma loja resolveu dar quinze por cento de desconto nas compras feitas pelos clientes. 
+# Faça um programa que leia o valor da compra e escreva o valor da compra com o desconto. 
+
+valor_da_compra = float(input('Digite o valor total da sua compra:'))
+
+valor_do_desconto = valor_da_compra*0.15
+
+valor_da_compra_com_desconto = valor_da_compra - valor_do_desconto
+
+print('O valor total da compra foi {}R$'.format(valor_da_compra))
+print('O valor da compra com desconto de 15% aplicado é: {}R$'.format(valor_da_compra_com_desconto))
