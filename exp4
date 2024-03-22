@@ -1,0 +1,12 @@
+#Faça um algoritmo que permita ao aluno calcular a sua média final na Unisinos. Leia a nota do grau
+#A e do grau B e escreva o resultado na tela. Lembrando que o Grau A vale 1/3 e o Grau B 2/3.
+
+nota_do_grauA = float(input('Digite sua nota do grau A:'))
+nota_do_grauB = float(input('Digite sua nota do grau B:'))
+
+peso_grauA = 1/3
+peso_grauB = 2/3
+
+resultado = (nota_do_grauA*peso_grauA)+(nota_do_grauB*peso_grauB) 
+
+print('A media final do aluno é:{:.2f}'.format(resultado))
