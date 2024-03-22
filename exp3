@@ -1,0 +1,6 @@
+#Um restaurante de buffet a quilo cobra R$ 40,00 por quilo. Escreva um programa que leia o peso do prato do cliente e calcule o valor a ser pago.
+
+peso = float(input('Digite o peso do seu prato:'))
+preço = peso*40
+
+print('Seu prato deu: {:.2f}R$'.format(preço))
