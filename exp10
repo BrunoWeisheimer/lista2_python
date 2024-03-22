@@ -1,0 +1,25 @@
+# O lojista gostou tanto do seu programa anterior que encomendou outro.
+# Dessa vez ele quer que você calcule quanto cada cliente gastou na loja apenas informando o número de camisetas, calças e cintos comprados
+# As camisetas custam 25,00, as calças 100 reais e os cintos 40 reais. 
+# Some o valor da compra e ao final dê um desconto de 10 por cento sobre o total. 
+# Exiba na tela o valor do desconto e o valor da compra
+
+nome_do_cliente = input('Informe seu nome:')
+camisetas = int(input('Informe o numero de camisetas compradas:'))
+cintos = int(input('Informe o numero de cintos comprados:'))
+calças = int(input('Informe o numero de calças compradas:'))
+
+preço_camisetas = 25.00
+preço_cintos = 40.00
+preço_calças = 100.00
+
+total_da_compra = (camisetas*preço_camisetas)+(cintos*preço_cintos)+(calças*preço_calças)
+
+total_desconto = total_da_compra*0.10
+
+total_da_compra_com_desconto = total_da_compra-total_desconto
+
+print('O valor total da compra foi de {}R$'.format(total_da_compra))
+print('O total de desconto foi de {}R$'.format(total_desconto))
+print('O total da compra com desconto foi de {}R$'.format(total_da_compra_com_desconto))
+print('Obrigado pela compra, volte sempre {}!'.format(nome_do_cliente))
