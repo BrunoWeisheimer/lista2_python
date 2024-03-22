@@ -1,0 +1,14 @@
+#A loja de eletrônicos TechMundo vende uma certa quantidade de smartphones e uma quantidade de tablets a cada dia. 
+# Cada smartphone custa R$ 1000,00 e cada tablet custa R$ 1500,00. 
+# Ao final do dia, o dono quer saber quanto arrecadou com a venda dos smartphones e dos tablets
+# Escreva um programa que leia o número de smartphones e tablets vendidos em um dia e calcule o total arrecadado
+
+smartphone = int(input('Quantos smartphones foram vendidos hoje:'))
+tablet = int(input('Quantos tablets foram vendidos hoje:'))
+
+preço_smartphone = 1000.00
+preço_tablet = 1500.00
+
+total_arrecadado = (smartphone*preço_smartphone)+(tablet*preço_tablet)
+
+print('O total arrecadado em vendas de smartphone e tablets hoje foi de:{}R$'.format(total_arrecadado))
